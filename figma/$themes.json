@@ -1,0 +1,11 @@
+[
+  {
+    "id": "2f073452cdea88eb9f5d2e3cb2009cfb04f696ce",
+    "name": "design-tokens",
+    "selectedTokenSets": {
+      "global": "source",
+      "light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
