@@ -164,5 +164,13 @@
       "value": "Roboto Mono",
       "type": "fontFamilies"
     }
+  },
+  "button": {
+    "value": {
+      "borderRadius": "{radii.none}",
+      "paddingRight": "16px",
+      "fill": "{color.brand.active}"
+    },
+    "type": "composition"
   }
 }

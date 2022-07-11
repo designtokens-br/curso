@@ -1,0 +1,11 @@
+{
+  "button": {
+    "default": {
+      "value": {
+        "fill": "{color.brand.default}",
+        "height": "32px"
+      },
+      "type": "composition"
+    }
+  }
+}
