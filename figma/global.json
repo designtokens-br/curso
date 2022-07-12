@@ -2,7 +2,7 @@
   "color": {
     "cloud": {
       "100": {
-        "value": " hsla(228, 33%, 94%, 1)",
+        "value": "hsla(228, 33%, 94%, 1)",
         "type": "color"
       },
       "200": {

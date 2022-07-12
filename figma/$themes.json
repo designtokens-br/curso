@@ -4,8 +4,7 @@
     "name": "design-tokens",
     "selectedTokenSets": {
       "global": "source",
-      "light": "enabled",
-      "button": "disabled"
+      "light": "enabled"
     },
     "$figmaStyleReferences": {}
   }
