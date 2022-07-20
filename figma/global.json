@@ -149,6 +149,66 @@
         "value": "hsla(360, 58%, 28%, 1)",
         "type": "color"
       }
+    },
+    "blue": {
+      "100": {
+        "value": "hsla(191, 15%, 93%, 1)",
+        "type": "color"
+      },
+      "200": {
+        "value": "hsla(190, 27%, 77%, 1)",
+        "type": "color"
+      },
+      "300": {
+        "value": "hsla(190, 32%, 74%, 1)",
+        "type": "color"
+      },
+      "400": {
+        "value": "hsla(191, 47%, 57%, 1)",
+        "type": "color"
+      },
+      "500": {
+        "value": "hsla(191, 63%, 43%, 1)",
+        "type": "color"
+      },
+      "600": {
+        "value": "hsla(191, 73%, 32%, 1)",
+        "type": "color"
+      },
+      "700": {
+        "value": "hsla(191, 87%, 23%, 1)",
+        "type": "color"
+      }
+    },
+    "purple": {
+      "100": {
+        "value": "hsla(259, 26%, 85%, 1)",
+        "type": "color"
+      },
+      "200": {
+        "value": "hsla(259, 32%, 72%, 1)",
+        "type": "color"
+      },
+      "300": {
+        "value": "hsla(259, 42%, 61%, 1)",
+        "type": "color"
+      },
+      "400": {
+        "value": "hsla(259, 51%, 52%, 1)",
+        "type": "color"
+      },
+      "500": {
+        "value": "hsla(259, 63%, 43%, 1)",
+        "type": "color"
+      },
+      "600": {
+        "value": "hsla(259, 69%, 38%, 1)",
+        "type": "color"
+      },
+      "": {
+        "value": "hsla(260, 77%, 30%, 1)",
+        "type": "color"
+      }
     }
   },
   "font-family": {
