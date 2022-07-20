@@ -1,6 +1,6 @@
 {
   "color": {
-    "cloud": {
+    "grey": {
       "100": {
         "value": "hsla(228, 33%, 94%, 1)",
         "type": "color"
@@ -30,7 +30,7 @@
         "type": "color"
       }
     },
-    "cyber": {
+    "pink": {
       "100": {
         "value": "hsla(324, 97%, 95%, 1)",
         "type": "color"
@@ -60,7 +60,7 @@
         "type": "color"
       }
     },
-    "digital": {
+    "green": {
       "100": {
         "value": "hsla(83, 76%, 95%, 1)",
         "type": "color"
@@ -90,7 +90,7 @@
         "type": "color"
       }
     },
-    "byte": {
+    "yellow": {
       "100": {
         "value": "hsla(43, 88%, 98%, 1)",
         "type": "color"
@@ -120,7 +120,7 @@
         "type": "color"
       }
     },
-    "tech": {
+    "red": {
       "100": {
         "value": "hsla(0, 91%, 98%, 1)",
         "type": "color"
