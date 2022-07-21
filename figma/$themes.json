@@ -3,8 +3,17 @@
     "id": "2f073452cdea88eb9f5d2e3cb2009cfb04f696ce",
     "name": "design-tokens",
     "selectedTokenSets": {
-      "global": "source",
-      "light": "enabled"
+      "light/default": "enabled",
+      "_global": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "eaf3ef70a36a076eac2d47ceb0fc87164f09d8ec",
+    "name": "dsvault",
+    "selectedTokenSets": {
+      "light/default": "enabled",
+      "_global": "source"
     },
     "$figmaStyleReferences": {}
   }
