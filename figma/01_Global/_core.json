@@ -386,5 +386,37 @@
         "type": "other"
       }
     }
+  },
+  "opacity": {
+    "total": {
+      "value": "1",
+      "type": "opacity",
+      "description": "100% opacity"
+    },
+    "high": {
+      "value": "0.8",
+      "type": "opacity",
+      "description": "80% opacity"
+    },
+    "medium": {
+      "value": "0.5",
+      "type": "opacity",
+      "description": "50% opacity"
+    },
+    "soft": {
+      "value": "0.3",
+      "type": "opacity",
+      "description": "30% opacity"
+    },
+    "light": {
+      "value": "0.15",
+      "type": "opacity",
+      "description": "15% opacity"
+    },
+    "zero": {
+      "value": "0",
+      "type": "opacity",
+      "description": "transparent"
+    }
   }
 }

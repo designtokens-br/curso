@@ -1,21 +1,21 @@
 [
   {
-    "id": "2f073452cdea88eb9f5d2e3cb2009cfb04f696ce",
-    "name": "design-tokens",
-    "selectedTokenSets": {
-      "01_Global/_core": "source",
-      "02_dsVault/light": "disabled",
-      "03_DesignTokens/light": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "eaf3ef70a36a076eac2d47ceb0fc87164f09d8ec",
     "name": "dsvault",
     "selectedTokenSets": {
       "01_Global/_core": "source",
-      "02_dsVault/light": "disabled",
-      "03_DesignTokens/light": "enabled"
+      "01_Global/_semantics": "disabled",
+      "01_Global/Components/Button": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "2f073452cdea88eb9f5d2e3cb2009cfb04f696ce",
+    "name": "design-tokens",
+    "selectedTokenSets": {
+      "01_Global/_core": "source",
+      "01_Global/_semantics": "disabled",
+      "01_Global/Components/Button": "disabled"
     },
     "$figmaStyleReferences": {}
   }
