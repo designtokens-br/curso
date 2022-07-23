@@ -27,6 +27,20 @@
         "value": "{color.purple.600}",
         "type": "color"
       }
+    },
+    "critical": {
+      "default": {
+        "value": "{color.red.500}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.red.600}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.red.600}",
+        "type": "color"
+      }
     }
   },
   "opacity": {
@@ -36,14 +50,6 @@
     },
     "ripple-state": {
       "value": "{opacity.medium}",
-      "type": "opacity"
-    },
-    "shadow-soft": {
-      "value": "{opacity.light}",
-      "type": "opacity"
-    },
-    "shadow-strong": {
-      "value": "{opacity.total}",
       "type": "opacity"
     }
   }
