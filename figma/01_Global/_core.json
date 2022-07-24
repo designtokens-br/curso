@@ -277,7 +277,7 @@
       }
     }
   },
-  "font-family": {
+  "fontFamily": {
     "primary": {
       "value": "Montserrat",
       "type": "fontFamilies"
@@ -287,9 +287,21 @@
       "type": "fontFamilies"
     }
   },
-  "radii": {
-    "none": {
+  "borderRadius": {
+    "sharp": {
       "value": "0",
+      "type": "borderRadius"
+    },
+    "softly-rounded": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "rounded": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "accent": {
+      "value": "12",
       "type": "borderRadius"
     },
     "pill": {
@@ -543,20 +555,24 @@
       "type": "other"
     }
   },
-  "border-width": {
-    "1": {
+  "borderWidth": {
+    "none": {
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "thin": {
       "value": "1",
       "type": "borderWidth"
     },
-    "2": {
+    "skinny": {
       "value": "2",
       "type": "borderWidth"
     },
-    "3": {
+    "medium": {
       "value": "4",
       "type": "borderWidth"
     },
-    "4": {
+    "large": {
       "value": "8",
       "type": "borderWidth"
     }
