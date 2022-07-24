@@ -582,5 +582,40 @@
       "value": "900",
       "type": "fontWeights"
     }
+  },
+  "fontSize": {
+    "xs": {
+      "value": "roundTo({fontSize.sm}/1.15)",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "roundTo({fontSize.md} /1.15)",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "16",
+      "type": "fontSizes",
+      "description": "base"
+    },
+    "lg": {
+      "value": "roundTo({fontSize.md} *1.15)",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "roundTo({fontSize.lg}*1.35)",
+      "type": "fontSizes"
+    },
+    "xl2": {
+      "value": "roundTo({fontSize.xl}*1.35)",
+      "type": "fontSizes"
+    },
+    "xl3": {
+      "value": "roundTo({fontSize.xl2}*1.5)",
+      "type": "fontSizes"
+    },
+    "xl4": {
+      "value": "roundTo({fontSize.xl3}*1.5)",
+      "type": "fontSizes"
+    }
   }
 }
