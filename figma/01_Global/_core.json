@@ -584,21 +584,29 @@
     }
   },
   "fontSize": {
-    "xs": {
-      "value": "roundTo({fontSize.sm}/1.15)",
-      "type": "fontSizes"
-    },
-    "sm": {
-      "value": "roundTo({fontSize.md} /1.15)",
-      "type": "fontSizes"
-    },
-    "md": {
+    "base": {
       "value": "16",
       "type": "fontSizes",
       "description": "base"
     },
+    "xs2": {
+      "value": "roundTo({fontSize.xs}/1.15)",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "roundTo({fontSize.base} /1.15)",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "{fontSize.base}",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "roundTo({fontSize.base} *1.15)",
+      "type": "fontSizes"
+    },
     "lg": {
-      "value": "roundTo({fontSize.md} *1.15)",
+      "value": "roundTo({fontSize.md}*1.35)",
       "type": "fontSizes"
     },
     "xl": {
@@ -606,7 +614,7 @@
       "type": "fontSizes"
     },
     "xl2": {
-      "value": "roundTo({fontSize.xl}*1.35)",
+      "value": "roundTo({fontSize.xl}*1.5)",
       "type": "fontSizes"
     },
     "xl3": {
@@ -614,7 +622,11 @@
       "type": "fontSizes"
     },
     "xl4": {
-      "value": "roundTo({fontSize.xl3}*1.5)",
+      "value": "roundTo({fontSize.xl3}*1.33)",
+      "type": "fontSizes"
+    },
+    "g": {
+      "value": "roundTo({fontSize.xl4}*1.33)",
       "type": "fontSizes"
     }
   }
