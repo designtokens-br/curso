@@ -645,5 +645,27 @@
       "value": "roundTo({fontSize.xl4}*1.33)",
       "type": "fontSizes"
     }
+  },
+  "lineHeight": {
+    "tiny": {
+      "value": "100%",
+      "type": "lineHeights",
+      "description": "For some eventual one line text usage"
+    },
+    "small": {
+      "value": "120%",
+      "type": "lineHeights",
+      "description": "For large subtitles"
+    },
+    "medium": {
+      "value": "150%",
+      "type": "lineHeights",
+      "description": "For medium sizes texts"
+    },
+    "tall": {
+      "value": "180%",
+      "type": "lineHeights",
+      "description": "For small texts"
+    }
   }
 }
