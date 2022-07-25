@@ -137,10 +137,76 @@
           "type": "color",
           "description": "Inverse color for critical texts on dark backgrounds"
         },
-        "hover": {
+        "inverse-hover": {
           "value": "{color.red.100}",
           "type": "color",
-          "description": "Inverse color for critical texts on dark backgrounds"
+          "description": "Inverse color for hovered critical texts on dark backgrounds"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.green.600}",
+          "type": "color",
+          "description": "For success texts"
+        },
+        "default-hover": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "description": "For success hovered texts"
+        },
+        "inverse": {
+          "value": "{color.green.200}",
+          "type": "color",
+          "description": "Inverse color for success texts on dark backgrounds"
+        },
+        "inverse-hover": {
+          "value": "{color.green.100}",
+          "type": "color",
+          "description": "Inverse color for hovered success texts on dark backgrounds"
+        }
+      },
+      "alert": {
+        "default": {
+          "value": "{color.yellow.700}",
+          "type": "color",
+          "description": "For alert texts"
+        },
+        "default-hover": {
+          "value": "{color.yellow.800}",
+          "type": "color",
+          "description": "For alert hovered texts"
+        },
+        "inverse": {
+          "value": "{color.yellow.200}",
+          "type": "color",
+          "description": "Inverse color for alert texts on dark backgrounds"
+        },
+        "inverse-hover": {
+          "value": "{color.yellow.100}",
+          "type": "color",
+          "description": "Inverse color for hovered alert texts on dark backgrounds"
+        }
+      },
+      "actions": {
+        "default": {
+          "value": "{color.pink.500}",
+          "type": "color",
+          "description": "For actions texts"
+        },
+        "default-hover": {
+          "value": "{color.pink.600}",
+          "type": "color",
+          "description": "For actions hovered texts"
+        },
+        "inverse": {
+          "value": "{color.pink.500}",
+          "type": "color",
+          "description": "Inverse color for actions texts on dark backgrounds"
+        },
+        "inverse-hover": {
+          "value": "{color.pink.400}",
+          "type": "color",
+          "description": "Inverse color for hovered alert texts on dark backgrounds"
         }
       }
     }
