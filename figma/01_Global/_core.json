@@ -2,15 +2,15 @@
   "color": {
     "grey": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -40,15 +40,15 @@
     },
     "pink": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.pink.h}, {baseColor.pink.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.pink.h}, {baseColor.pink.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.pink.h}, {baseColor.pink.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.pink.h}, {baseColor.pink.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.pink.h}, {baseColor.pink.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -78,15 +78,15 @@
     },
     "red": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.red.h}, {baseColor.red.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.red.h}, {baseColor.red.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.red.h}, {baseColor.red.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.red.h}, {baseColor.red.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.red.h}, {baseColor.red.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -116,15 +116,15 @@
     },
     "orange": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.orange.h}, {baseColor.orange.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.orange.h}, {baseColor.orange.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.orange.h}, {baseColor.orange.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.orange.h}, {baseColor.orange.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.orange.h}, {baseColor.orange.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -154,15 +154,15 @@
     },
     "yellow": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.yellow.h}, {baseColor.yellow.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.yellow.h}, {baseColor.yellow.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.yellow.h}, {baseColor.yellow.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.yellow.h}, {baseColor.yellow.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.yellow.h}, {baseColor.yellow.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -192,15 +192,15 @@
     },
     "green": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.green.h}, {baseColor.green.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.green.h}, {baseColor.green.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.green.h}, {baseColor.green.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.green.h}, {baseColor.green.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.green.h}, {baseColor.green.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -230,15 +230,15 @@
     },
     "cyan": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.cyan.h}, {baseColor.cyan.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.cyan.h}, {baseColor.cyan.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.cyan.h}, {baseColor.cyan.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.cyan.h}, {baseColor.cyan.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.cyan.h}, {baseColor.cyan.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -268,15 +268,15 @@
     },
     "blue": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.blue.h}, {baseColor.blue.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.blue.h}, {baseColor.blue.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.blue.h}, {baseColor.blue.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.blue.h}, {baseColor.blue.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.blue.h}, {baseColor.blue.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
@@ -306,15 +306,15 @@
     },
     "purple": {
       "100": {
-        "value": "hsla(228, 33%, 95%, 1)",
+        "value": "hsla({baseColor.purple.h}, {baseColor.purple.s}, {baseColor.light.bright}, {opacity.total}",
         "type": "color"
       },
       "200": {
-        "value": "hsla({baseColor.purple.h}, {baseColor.purple.s}, {baseColor.light.clear}, {opacity.total}",
+        "value": "hsla({baseColor.purple.h}, {baseColor.purple.s}, {baseColor.light.light}, {opacity.total}",
         "type": "color"
       },
       "300": {
-        "value": " hsla({baseColor.purple.h}, {baseColor.purple.s}, {baseColor.light.clear}, {opacity.total})",
+        "value": "hsla({baseColor.purple.h}, {baseColor.purple.s}, {baseColor.light.clear}, {opacity.total})",
         "type": "color"
       },
       "400": {
