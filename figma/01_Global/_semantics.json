@@ -83,6 +83,66 @@
         "value": "{color.cyan.600}",
         "type": "color"
       }
+    },
+    "text": {
+      "primary": {
+        "default": {
+          "value": "{color.grey.800}",
+          "type": "color",
+          "description": "For titles"
+        },
+        "inverse": {
+          "value": "{color.grey.100}",
+          "type": "color",
+          "description": "For titles"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.grey.700}",
+          "type": "color",
+          "description": "For subtitles, paragraphs and single texts"
+        },
+        "inverse": {
+          "value": "{color.grey.200}",
+          "type": "color",
+          "description": "For subtitles, paragraphs and single texts"
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.grey.700}",
+          "type": "color",
+          "description": "For captions and less prominent texts"
+        },
+        "inverse": {
+          "value": "{color.grey.300}",
+          "type": "color",
+          "description": "For captions and less prominent texts"
+        }
+      },
+      "critical": {
+        "default": {
+          "value": "{color.red.600}",
+          "type": "color",
+          "description": "For critical texts"
+        },
+        "default-hover": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "description": "For critical hovered texts"
+        },
+        "inverse": {
+          "value": "{color.red.200}",
+          "type": "color",
+          "description": "Inverse color for critical texts on dark backgrounds"
+        },
+        "hover": {
+          "value": "{color.red.100}",
+          "type": "color",
+          "description": "Inverse color for critical texts on dark backgrounds"
+        }
+      }
     }
   },
   "opacity": {
