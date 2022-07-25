@@ -52,5 +52,84 @@
       "value": "{opacity.medium}",
       "type": "opacity"
     }
+  },
+  "elevation": {
+    "low": {
+      "value": [
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.shadow.soft}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "4",
+          "spread": "0",
+          "color": "{color.shadow.soft}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Low elevation components"
+    },
+    "medium": {
+      "value": [
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.shadow.soft}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "4",
+          "spread": "10",
+          "color": "{color.shadow.soft}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "For elements with medium elevation"
+    },
+    "high": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "4",
+          "spread": "0",
+          "color": "{color.shadow.soft}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8",
+          "blur": "15",
+          "spread": "2",
+          "color": "{color.shadow.soft}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "For elements with high elevation"
+    },
+    "outer-space": {
+      "value": {
+        "x": "3",
+        "y": "10",
+        "blur": "50",
+        "spread": "0",
+        "color": "{color.shadow.soft}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
   }
 }
