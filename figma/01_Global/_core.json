@@ -351,6 +351,16 @@
         "value": "hsla(0, 0%, 100%, 1)",
         "type": "color"
       }
+    },
+    "shadow": {
+      "soft": {
+        "value": "hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.deep}, {opacity.light} )",
+        "type": "color"
+      },
+      "strong": {
+        "value": "hsla({baseColor.grey.h}, {baseColor.grey.s}, {baseColor.light.deep}, {opacity.total} )",
+        "type": "color"
+      }
     }
   },
   "fontFamily": {
