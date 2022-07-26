@@ -84,6 +84,210 @@
         "type": "color"
       }
     },
+    "background": {
+      "surface": {
+        "default": {
+          "value": "{color.grey.100}",
+          "type": "color",
+          "description": "Default surface background color"
+        },
+        "hover": {
+          "value": "{color.grey.200}",
+          "type": "color",
+          "description": "Default surface hovered background color"
+        },
+        "alt-default": {
+          "value": "{color.grey.200}",
+          "type": "color",
+          "description": "Default surface background color"
+        },
+        "alt-hover": {
+          "value": "{color.grey.300}",
+          "type": "color",
+          "description": "Default surface hovered background color"
+        },
+        "inverse-default": {
+          "value": "{color.grey.800}",
+          "type": "color",
+          "description": "Default surface hovered background color"
+        },
+        "inverse-hover": {
+          "value": "{color.grey.900}",
+          "type": "color",
+          "description": "Default surface hovered background color"
+        },
+        "alt-inverse-default": {
+          "value": "{color.grey.700}",
+          "type": "color",
+          "description": "Default surface hovered background color"
+        },
+        "alt-inverse-alt-hover": {
+          "value": "{color.grey.800}",
+          "type": "color",
+          "description": "Default surface hovered background color"
+        }
+      },
+      "brand": {
+        "default": {
+          "value": "{color.pink.100}",
+          "type": "color",
+          "description": "Background with soft brand color"
+        },
+        "hover": {
+          "value": "{color.pink.200}",
+          "type": "color",
+          "description": "Hovered background with soft brand color"
+        },
+        "active": {
+          "value": "{color.pink.200}",
+          "type": "color",
+          "description": "Hovered background with soft brand color"
+        },
+        "alt-default": {
+          "value": "{color.brand.default}",
+          "type": "color",
+          "description": "Background with default brand color"
+        },
+        "alt-hover": {
+          "value": "{color.brand.hover}",
+          "type": "color",
+          "description": "Dark surface hovered background color"
+        },
+        "alt-active": {
+          "value": "{color.brand.active}",
+          "type": "color",
+          "description": "Dark surface active background color"
+        }
+      },
+      "critical": {
+        "default": {
+          "value": "{color.red.100}",
+          "type": "color",
+          "description": "Soft background for critical UI elements"
+        },
+        "hover": {
+          "value": "{color.red.200}",
+          "type": "color",
+          "description": "Hovered soft background for critical UI elements"
+        },
+        "active": {
+          "value": "{color.red.200}",
+          "type": "color",
+          "description": "Active soft background for critical UI elements"
+        },
+        "alt-default": {
+          "value": "{color.critical.default}",
+          "type": "color",
+          "description": "Dark background for critical UI elements"
+        },
+        "alt-hover": {
+          "value": "{color.critical.hover}",
+          "type": "color",
+          "description": "Hovered dark background for critical UI elements"
+        },
+        "alt-active": {
+          "value": "{color.critical.active}",
+          "type": "color",
+          "description": "Active dark background for critical UI elements"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.green.100}",
+          "type": "color",
+          "description": "Soft background for success UI elements"
+        },
+        "hover": {
+          "value": "{color.green.200}",
+          "type": "color",
+          "description": "Hovered soft background for success UI elements"
+        },
+        "active": {
+          "value": "{color.green.200}",
+          "type": "color",
+          "description": "Active soft background for success UI elements"
+        },
+        "alt-default": {
+          "value": "{color.success.default}",
+          "type": "color",
+          "description": "Dark background for success UI elements"
+        },
+        "alt-hover": {
+          "value": "{color.success.hover}",
+          "type": "color",
+          "description": "Hovered dark background for success UI elements"
+        },
+        "alt-active": {
+          "value": "{color.success.active}",
+          "type": "color",
+          "description": "Active dark background for success UI elements"
+        }
+      },
+      "alert": {
+        "default": {
+          "value": "{color.yellow.100}",
+          "type": "color",
+          "description": "Soft background for alert UI elements"
+        },
+        "hover": {
+          "value": "{color.yellow.200}",
+          "type": "color",
+          "description": "Hovered soft background for alert UI elements"
+        },
+        "active": {
+          "value": "{color.yellow.200}",
+          "type": "color",
+          "description": "Active soft background for alert UI elements"
+        },
+        "alt-default": {
+          "value": "{color.alert.default}",
+          "type": "color",
+          "description": "Dark background for alert UI elements"
+        },
+        "alt-hover": {
+          "value": "{color.alert.hover}",
+          "type": "color",
+          "description": "Hovered dark background for alert UI elements"
+        },
+        "alt-active": {
+          "value": "{color.alert.active}",
+          "type": "color",
+          "description": "Active dark background for alert UI elements"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.cyan.100}",
+          "type": "color",
+          "description": "Soft background for accent UI elements"
+        },
+        "hover": {
+          "value": "{color.cyan.200}",
+          "type": "color",
+          "description": "Hovered soft background for accent UI elements"
+        },
+        "active": {
+          "value": "{color.cyan.200}",
+          "type": "color",
+          "description": "Active soft background for accent UI elements"
+        },
+        "alt-default": {
+          "value": "{color.accent.default}",
+          "type": "color",
+          "description": "Dark background for accent UI elements"
+        },
+        "alt-hover": {
+          "value": "{color.accent.hover}",
+          "type": "color",
+          "description": "Hovered dark background for accent UI elements"
+        },
+        "alt-active": {
+          "value": "{color.accent.active}",
+          "type": "color",
+          "description": "Active dark background for accent UI elements"
+        }
+      }
+    },
     "text": {
       "primary": {
         "default": {
@@ -145,12 +349,12 @@
       },
       "success": {
         "default": {
-          "value": "{color.green.600}",
+          "value": "{color.success.default}",
           "type": "color",
           "description": "For success texts"
         },
         "default-hover": {
-          "value": "{color.green.700}",
+          "value": "{color.success.hover}",
           "type": "color",
           "description": "For success hovered texts"
         },
@@ -167,12 +371,12 @@
       },
       "alert": {
         "default": {
-          "value": "{color.yellow.700}",
+          "value": "{color.alert.default}",
           "type": "color",
           "description": "For alert texts"
         },
         "default-hover": {
-          "value": "{color.yellow.800}",
+          "value": "{color.alert.hover}",
           "type": "color",
           "description": "For alert hovered texts"
         },
@@ -189,17 +393,17 @@
       },
       "actions": {
         "default": {
-          "value": "{color.pink.500}",
+          "value": "{color.brand.default}",
           "type": "color",
           "description": "For actions texts"
         },
         "default-hover": {
-          "value": "{color.pink.600}",
+          "value": "{color.brand.hover}",
           "type": "color",
           "description": "For actions hovered texts"
         },
         "inverse": {
-          "value": "{color.pink.500}",
+          "value": "{color.brand.default}",
           "type": "color",
           "description": "Inverse color for actions texts on dark backgrounds"
         },
