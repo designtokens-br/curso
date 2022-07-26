@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "01_Global/_core": "source",
       "01_Global/_semantics": "disabled",
-      "02_Components/Alert": "disabled"
+      "02_Components/Alert": "disabled",
+      "02_Components/Typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -15,7 +16,8 @@
     "selectedTokenSets": {
       "01_Global/_core": "source",
       "01_Global/_semantics": "source",
-      "02_Components/Alert": "enabled"
+      "02_Components/Alert": "enabled",
+      "02_Components/Typography": "disabled"
     },
     "$figmaStyleReferences": {}
   }

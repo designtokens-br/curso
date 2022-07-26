@@ -564,5 +564,47 @@
       "type": "textCase",
       "description": "Text transform property for button labels"
     }
+  },
+  "spacing": {
+    "paragraph": {
+      "xs": {
+        "value": "{spacing.5}",
+        "type": "paragraphSpacing"
+      },
+      "sm": {
+        "value": "{spacing.6}",
+        "type": "paragraphSpacing"
+      }
+    },
+    "gap": {
+      "xxs": {
+        "value": "{spacing.1}",
+        "type": "paragraphSpacing"
+      },
+      "xs": {
+        "value": "{spacing.2}",
+        "type": "paragraphSpacing"
+      },
+      "sm": {
+        "value": "{spacing.3}",
+        "type": "paragraphSpacing"
+      },
+      "md": {
+        "value": "{spacing.4}",
+        "type": "paragraphSpacing"
+      },
+      "lg": {
+        "value": "{spacing.5}",
+        "type": "paragraphSpacing"
+      },
+      "xl": {
+        "value": "{spacing.6}",
+        "type": "paragraphSpacing"
+      },
+      "xxl": {
+        "value": "{spacing.8}",
+        "type": "paragraphSpacing"
+      }
+    }
   }
 }
