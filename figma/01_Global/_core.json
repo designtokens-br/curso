@@ -611,7 +611,11 @@
   },
   "density": {
     "interval": {
-      "value": "4",
+      "value": "8",
+      "type": "other"
+    },
+    "large": {
+      "value": "1",
       "type": "other"
     },
     "default": {
@@ -624,6 +628,10 @@
     },
     "compact": {
       "value": "-2",
+      "type": "other"
+    },
+    "tiny": {
+      "value": "-3",
       "type": "other"
     }
   },

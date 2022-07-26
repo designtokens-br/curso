@@ -518,6 +518,10 @@
   "sizing": {
     "height": {
       "generic": {
+        "large": {
+          "value": "{sizing.8} + {density.interval} *({density.large})",
+          "type": "sizing"
+        },
         "default": {
           "value": "{sizing.8} + {density.interval} *({density.default})",
           "type": "sizing",
@@ -530,7 +534,17 @@
         "tiny": {
           "value": "{sizing.8} + {density.interval} *({density.compact})",
           "type": "sizing"
+        },
+        "minor": {
+          "value": "{sizing.8} + {density.interval} *({density.tiny})",
+          "type": "sizing"
         }
+      }
+    },
+    "width": {
+      "full": {
+        "value": "100%",
+        "type": "sizing"
       }
     }
   },
