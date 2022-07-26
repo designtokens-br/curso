@@ -657,7 +657,7 @@
       "type": "borderWidth"
     }
   },
-  "fonte-weight": {
+  "font-weight": {
     "thin": {
       "value": "300",
       "type": "fontWeights"
@@ -723,6 +723,14 @@
     },
     "g": {
       "value": "roundTo({font-size.xl4}*1.33)",
+      "type": "fontSizes"
+    },
+    "xg": {
+      "value": "roundTo({font-size.g} * 1.34)",
+      "type": "fontSizes"
+    },
+    "xg2": {
+      "value": "roundTo({font-size.xg} * 1.34)",
       "type": "fontSizes"
     }
   },
@@ -892,15 +900,15 @@
   },
   "letter-spacing": {
     "none": {
-      "value": "0",
+      "value": "0px",
       "type": "letterSpacing"
     },
     "small": {
-      "value": "0.019em",
+      "value": "0.3px",
       "type": "letterSpacing"
     },
     "medium": {
-      "value": "0.05em",
+      "value": "0.8px",
       "type": "letterSpacing"
     }
   }

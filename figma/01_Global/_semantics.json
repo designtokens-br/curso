@@ -315,7 +315,7 @@
       },
       "tertiary": {
         "default": {
-          "value": "{color.grey.700}",
+          "value": "{color.grey.600}",
           "type": "color",
           "description": "For captions and less prominent texts"
         },
@@ -446,6 +446,10 @@
       "type": "opacity"
     },
     "ripple-state": {
+      "value": "{opacity.medium}",
+      "type": "opacity"
+    },
+    "dragged-state": {
       "value": "{opacity.medium}",
       "type": "opacity"
     }
@@ -594,7 +598,7 @@
       "description": "Text transform property for paragraphs and single texts"
     },
     "navigation": {
-      "value": "capitalize",
+      "value": "uppercase",
       "type": "textCase",
       "description": "Text transform property for button labels"
     }
@@ -654,5 +658,17 @@
         "type": "paragraphSpacing"
       }
     }
+  },
+  "BigTitle": {
+    "value": {
+      "fontFamily": "{font-family.primary}",
+      "fontWeight": "{font-weight.bold}",
+      "lineHeight": "{line-height.tiny}",
+      "fontSize": "{font-size.g}",
+      "letterSpacing": "{letter-spacing.none}",
+      "paragraphSpacing": "{spacing.paragraph.none}",
+      "textCase": "{text-transform.title}"
+    },
+    "type": "typography"
   }
 }
