@@ -424,6 +424,20 @@
           "type": "color"
         }
       }
+    },
+    "illustration": {
+      "outlines": {
+        "value": "{color.grey.300}",
+        "type": "color"
+      },
+      "blank": {
+        "value": "{color.grey.100}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{color.brand.default}",
+        "type": "color"
+      }
     }
   },
   "opacity": {
@@ -593,6 +607,10 @@
       },
       "sm": {
         "value": "{spacing.6}",
+        "type": "paragraphSpacing"
+      },
+      "none": {
+        "value": "0",
         "type": "paragraphSpacing"
       }
     },

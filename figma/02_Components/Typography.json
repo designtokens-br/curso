@@ -1,16 +1,1 @@
-{
-  "BigTitle": {
-    "value": {
-      "fontFamily": "{font-family.primary}",
-      "fontWeight": "{fonte-weight.bold}",
-      "lineHeight": "{line-height.small}",
-      "fontSize": "{font-size.g}",
-      "letterSpacing": "{letter-spacing.none}",
-      "paragraphSpacing": "{spacing.paragraph.xs}",
-      "textDecoration": "none",
-      "textCase": "{text-transform.title}"
-    },
-    "type": "typography",
-    "description": "This should be a H1 tag"
-  }
-}
+{}
