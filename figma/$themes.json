@@ -5,7 +5,7 @@
     "selectedTokenSets": {
       "01_Global/_core": "source",
       "01_Global/_semantics": "disabled",
-      "01_Global/Components/Button": "disabled"
+      "02_Components/Alert": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -15,7 +15,7 @@
     "selectedTokenSets": {
       "01_Global/_core": "source",
       "01_Global/_semantics": "disabled",
-      "01_Global/Components/Button": "disabled"
+      "02_Components/Alert": "enabled"
     },
     "$figmaStyleReferences": {}
   }

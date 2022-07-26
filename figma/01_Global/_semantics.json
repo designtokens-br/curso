@@ -208,6 +208,17 @@
           "type": "color",
           "description": "Inverse color for hovered alert texts on dark backgrounds"
         }
+      },
+      "code": {
+        "default": {
+          "value": "{color.cyan.600}",
+          "type": "color",
+          "description": "Color for code text"
+        },
+        "inverse": {
+          "value": "{color.cyan.300}",
+          "type": "color"
+        }
       }
     }
   },
@@ -298,6 +309,42 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    }
+  },
+  "sizing": {
+    "height": {
+      "generic": {
+        "default": {
+          "value": "{sizing.8} + {density.interval} *({density.default})",
+          "type": "sizing",
+          "description": "Default elements size for UI components"
+        },
+        "small": {
+          "value": "{sizing.8} + {density.interval} *({density.confortable})",
+          "type": "sizing"
+        },
+        "tiny": {
+          "value": "{sizing.8} + {density.interval} *({density.compact})",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "text-transform": {
+    "title": {
+      "value": "uppercase",
+      "type": "textCase",
+      "description": "Text transform property for titles and subtitles"
+    },
+    "generic": {
+      "value": "none",
+      "type": "textCase",
+      "description": "Text transform property for paragraphs and single texts"
+    },
+    "navigation": {
+      "value": "capitalize",
+      "type": "textCase",
+      "description": "Text transform property for button labels"
     }
   }
 }
