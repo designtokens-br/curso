@@ -14,7 +14,7 @@
     "name": "design-tokens",
     "selectedTokenSets": {
       "01_Global/_core": "source",
-      "01_Global/_semantics": "disabled",
+      "01_Global/_semantics": "source",
       "02_Components/Alert": "enabled"
     },
     "$figmaStyleReferences": {}

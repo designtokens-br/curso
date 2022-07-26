@@ -889,5 +889,19 @@
       "value": "only screen and (max width: 360px)",
       "type": "other"
     }
+  },
+  "letter-spacing": {
+    "none": {
+      "value": "0",
+      "type": "letterSpacing"
+    },
+    "small": {
+      "value": "0.019em",
+      "type": "letterSpacing"
+    },
+    "medium": {
+      "value": "0.05em",
+      "type": "letterSpacing"
+    }
   }
 }
