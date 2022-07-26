@@ -518,32 +518,52 @@
   "sizing": {
     "height": {
       "generic": {
-        "large": {
-          "value": "{sizing.8} + {density.interval} *({density.large})",
+        "xl3": {
+          "value": "{sizing.12}",
           "type": "sizing"
         },
-        "default": {
-          "value": "{sizing.8} + {density.interval} *({density.default})",
+        "xl2": {
+          "value": "{sizing.11}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{sizing.10}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{sizing.9}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{sizing.8}",
           "type": "sizing",
           "description": "Default elements size for UI components"
         },
-        "small": {
-          "value": "{sizing.8} + {density.interval} *({density.confortable})",
+        "sm": {
+          "value": "{sizing.7}",
           "type": "sizing"
         },
-        "tiny": {
-          "value": "{sizing.8} + {density.interval} *({density.compact})",
+        "xs": {
+          "value": "{sizing.6}",
           "type": "sizing"
         },
-        "minor": {
-          "value": "{sizing.8} + {density.interval} *({density.tiny})",
+        "xs2": {
+          "value": "{sizing.5}",
+          "type": "sizing"
+        },
+        "xs3": {
+          "value": "{sizing.4}",
+          "type": "sizing"
+        },
+        "full": {
+          "value": "100vh",
           "type": "sizing"
         }
       }
     },
     "width": {
       "full": {
-        "value": "100%",
+        "value": "100vw",
         "type": "sizing"
       }
     }
@@ -603,6 +623,16 @@
       },
       "xxl": {
         "value": "{spacing.8}",
+        "type": "paragraphSpacing"
+      }
+    },
+    "padding": {
+      "small": {
+        "value": "{spacing.2}+{density.interval}*({density.default})",
+        "type": "paragraphSpacing"
+      },
+      "medium": {
+        "value": "{spacing.2}+{density.interval}*({density.large})",
         "type": "paragraphSpacing"
       }
     }
