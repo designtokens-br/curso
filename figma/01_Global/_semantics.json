@@ -563,7 +563,7 @@
     },
     "width": {
       "full": {
-        "value": "100vw",
+        "value": "100%",
         "type": "sizing"
       }
     }
